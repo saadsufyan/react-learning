@@ -5,17 +5,15 @@ import add,{sub,div,mul} from "./components/Calc";
 
 function App() {
   return (
-    <div>
-      <ol>
+      <ul>
         <li>{add(5,2)}</li>
         <li>{sub(7,2)}</li>
         <li>{div(5,2)}</li>
         <li>{mul(3,2)}</li>
-      </ol>
-    {/* <Components/>
+      </ul>
+    /* <Components/>
     <Module/>
-    <p>{text}</p> */}
-    </div>
+    <p>{text}</p> */
   );
 } 
 
