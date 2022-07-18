@@ -23,3 +23,7 @@ We suggest that you begin by typing:
 
   cd learning-react
   npm start
+
+
+  =======================================
+  JSX javascripts exts/XML
