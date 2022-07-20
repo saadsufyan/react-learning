@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App.jsx'
-
+// import App from './App.jsx'
+import Cards from './components/Cards';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //working on components
 
@@ -23,9 +23,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
  //   color: 'green',
  // }
  root.render(
-   <>
- <App/>
-   </>
+   
+<>
+    <Cards title='Architect & Engineer' name='John Doe' img='./assessts/img_avatar.png'/>
+    <Cards title='Software Engineering' name='John DON' img='img_avatar.png'/>
+    <Cards title='Employee' name='Johnyy Bravo' img='img_avatar.png'/>
+    </>
  );
 
 
