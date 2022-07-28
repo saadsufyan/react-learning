@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App.jsx'
 import Cards from './components/Cards';
+import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //working on components
 
@@ -23,11 +24,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
  //   color: 'green',
  // }
  root.render(
-   
 <>
-    <Cards title='Architect & Engineer' name='John Doe' img='./assessts/img_avatar.png'/>
-    <Cards title='Software Engineering' name='John DON' img='img_avatar.png'/>
-    <Cards title='Employee' name='Johnyy Bravo' img='img_avatar.png'/>
+    <App/>
     </>
  );
 

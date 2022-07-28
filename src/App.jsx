@@ -3,13 +3,16 @@ import React from 'react';
 // import Module,{text} from "./components/Module";
 // import add,{sub,div,mul} from "./components/Calc";
 import Cards from './components/Cards';
+import Getdata from './data/Data';
 
 function App() {
   return (
     <>
-    <Cards title='Architect & Engineer' name='John Doe' img='./assessts/img_avatar.png'/>
-    <Cards title='Software Engineering' name='John DON' img='img_avatar.png'/>
-    <Cards title='Employee' name='Johnyy Bravo' img='img_avatar.png'/>
+    {Getdata.map((val,index)=>{
+      return(  
+        <Cards title={val.title} name={val.name} img={val.img}/>
+    )
+    })};
     </>
       // <ul>
       //   <li>{add(5,2)}</li>
