@@ -1,12 +1,13 @@
 import React from 'react';
 import '../index.css';
+import Images from './Images';
 
 function Cards(props) {
   console.log(props)
   return (
    <>
    <div className="card">
-   <img src={props.img} alt="Avatar"/>
+   <Images img={props.img}/>
    <div className="container">
      <h4><b>{props.name}</b></h4> 
      <p>{props.title}</p> 

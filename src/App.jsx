@@ -9,10 +9,7 @@ function App() {
   return (
     <>
     {Getdata.map((val,index)=>{
-      return(  
-        <Cards title={val.title} name={val.name} img={val.img}/>
-    )
-    })};
+       return(val.id==45?<Cards key={val.id} title={val.title} name={val.name} img={val.img}/>:val.id==2?<Cards key={val.id} title={val.title} name={val.name} img={val.img}/>:undefined) })};
     </>
       // <ul>
       //   <li>{add(5,2)}</li>
